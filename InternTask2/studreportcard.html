@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+        .report-card{
+            width: 100%;
+            max-width: 600px;
+            background: #e6e2ca;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(167, 133, 133, 0.603);
+        }
+        .report-card h1  {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            border: 1px solid #242323;
+            padding: 8px;
+            text-align: center;
+            
+        }
+
+        th {
+            background-color: hsl(202, 59%, 79%);
+            color: rgb(39, 39, 36);
+            border: 1px solid #242323;
+            padding: 8px;
+            text-align: center;
+        }
+        .student-info tr td{
+            text-align: left;
+            background-color: hsl(202, 59%, 79%);
+            font-weight: bold;
+        }
+        .attendance tr td{
+            text-align: left;
+            background-color: hsl(202, 59%, 79%);
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="report-card">
+        <h1>STUDENT REPORT CARD</h1>
+        <div class="student-info">
+            <table>
+            <tr>
+                <td>Name:</td> 
+                <td>Grade:</td> 
+            </tr>
+            <tr>
+                <td>Teacher:</td> 
+                <td>School Year:</td> 
+            </tr>
+            <tr>
+                <td>Term:</td> 
+                <td>Date:</td> 
+            </tr>
+        </table>
+        </div>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Grade Q1</th>
+                <th>Grade Q2</th>
+                <th>Grade Q3</th>
+            </tr>
+            <tr>
+                <td>Literature</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>History</td>
+                <td>B+</td>
+                <td>B+</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Geography</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Algebra</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Social Science</td>
+                <td>B</td>
+                <td>B</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>A+</td>
+                <td>A+</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Art</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Physical Education</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Entrepreneurship</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+            </tr>
+        </table>
+        <div class="attendance">
+            <table>
+            <tr>
+                <td>Absences:</td>
+                <td>Tardies:</td>
+            </tr>
+            <tr>
+                <td>Early Dismissals:</td>
+                <td>Penalties:</td>
+            </tr>
+        </table>
+        </div>
+
+        
+    </div>
+
+</body>
+</html>
